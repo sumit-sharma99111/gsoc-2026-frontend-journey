@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+       align-items: center;
+      height: 100vh;
+      flex-wrap: wrap;
+      overflow: hidden;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     border: 1px solid black;
+     padding: 20px;
+     background-color:rgb(243, 243, 219);
+     border-radius: 10px;
+}
